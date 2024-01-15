@@ -1,10 +1,10 @@
+// Helper function: assertEqual
 const assertEqual = function(actual, expected) {
 	if (actual === expected) {
-		console.log("Assertion passed: ${actual} === ${expected}");
+	  console.log(`Assertion passed: ${actual} === ${expected}`);
 	} else {
-		console.log("Assertion Failed: ${actual} !== ${expected}");
+	  console.log(`Assertion Failed: ${actual} !== ${expected}`);
 	}
-};
-
-assertEqual("Lighthous Labs", "Bootcamp");
-assertEqual(1,1);
+  };
+  module.exports = assertEqual;
+  // Function: findKey
